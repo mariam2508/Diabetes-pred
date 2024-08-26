@@ -12,5 +12,5 @@ Glucose = st.number_input('Glucose' , min_value=0.000 , max_value=199.000)
 BMI =  st.number_input(' BMI' , min_value=0.000 , max_value=67.100)
 
 output = model.predict([[Pregnancies,Glucose,BMI]])
-st.write("the predict : ",output[0])
+st.write("the predict : ",output)
 
