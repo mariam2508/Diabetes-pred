@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-with open('model.pkl', 'rb') as file:
+with open('model1.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Title and introduction
