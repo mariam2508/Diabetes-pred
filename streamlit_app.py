@@ -17,9 +17,9 @@ with st.form(key='input_form'):
     st.header("Input Features")
 
     # Input fields
-    Pregnancies = st.number_input('Pregnancies', min_value=0, max_value=17, value=0)
-    Glucose = st.number_input('Glucose', min_value=0, max_value=199, value=120)
-    BMI = st.number_input('BMI', min_value=0.0, max_value=67.1, value=25.0)
+    Pregnancies = st.number_input('Pregnancies', min_value=0, max_value=17)
+    Glucose = st.number_input('Glucose', min_value=0, max_value=199)
+    BMI = st.number_input('BMI', min_value=0.0, max_value=67)
 
     # Submit button
     submit_button = st.form_submit_button(label='Apply')
